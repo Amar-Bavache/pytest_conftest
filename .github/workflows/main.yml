@@ -1,9 +1,7 @@
 name: Selenium Tests
 
 on:
-  workflow_dispatch:  # Allows running manually
-  schedule:
-    - cron: '0 0 * * *'  # Run every day at 00:00 UTC
+  workflow_dispatch:  Allows running manually
 
 jobs:
   selenium-tests:
