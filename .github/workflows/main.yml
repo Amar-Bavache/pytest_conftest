@@ -1,7 +1,7 @@
 name: Selenium Tests
 
 on:
-  workflow_dispatch:  Allows running manually
+  workflow_dispatch: # Allows running manually
 
 jobs:
   selenium-tests:
